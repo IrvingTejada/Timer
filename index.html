@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>TIMER IT</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="clock">
+
+      <input id="hour" class="number" type="text" maxlength="2" value="00"><span>hs</span>
+
+      <input id="min" class="number" type="text" maxlength="2" value="00"><span>min</span>
+
+      <input id="seg" class="number" type="text" maxlength="2" value="00"><span>seg</span>
+    </div>
+    <div class="buttons">
+      <button id="play" onclick="startTime()">START</button>
+      <button id="stop" onclick="stopTime()">STOP</button>
+      
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+  <script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
+</body>
+</html>
